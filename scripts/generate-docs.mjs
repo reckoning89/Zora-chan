@@ -25,8 +25,8 @@ Generated: ${new Date().toISOString()}
 
 ## CI/CD
 
-Copy `docs/ci-workflow.yml` → `.github/workflows/ci.yml` and
-`docs/deploy-workflow.yml` → `.github/workflows/deploy.yml`.
+Copy \`docs/ci-workflow.yml\` to \`.github/workflows/ci.yml\` and
+\`docs/deploy-workflow.yml\` to \`.github/workflows/deploy.yml\`.
 
 Pull requests then run lint, unit tests, production build, and docs generation via GitHub Actions.
 
