@@ -8,6 +8,7 @@
     "start": "next start",
     "lint": "next lint",
     "test": "vitest run",
+    "verify": "npm run lint && npm run test && npm run build && npm run docs:generate",
     "test:watch": "vitest",
     "docs:generate": "node scripts/generate-docs.mjs"
   },
